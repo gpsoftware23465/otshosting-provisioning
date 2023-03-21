@@ -5,7 +5,6 @@
     pkg:
       - php-fpm
       - php-apcu
-      - php7.2-mysqlnd
       - php-curl
       - php-xml
       - php-mbstring

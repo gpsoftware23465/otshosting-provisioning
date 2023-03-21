@@ -8,7 +8,6 @@
     - php-curl
     - php-xml
     - php-mbstring
-    - php-gettext
     - composer
 
 - name: Set php.ini display_errors

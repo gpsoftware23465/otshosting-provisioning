@@ -56,12 +56,6 @@
   mysql_db:
     name: forgottenserver
 
-- name: Import database for TFS
-  mysql_db:
-    name: forgottenserver
-    state: import
-    target: /home/otsmanager/forgottenserver/schema.sql
-
 - name: Copy config.lua.dist to config.lua if necessary
   copy:
     dest: /home/otsmanager/forgottenserver/config.lua

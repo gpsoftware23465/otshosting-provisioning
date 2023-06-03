@@ -35,7 +35,7 @@
 - name: Set MySQL otsmanager password (localhost)
   mysql_user:
     name: otsmanager
-    password: "{{ mysql_otsmanager_pass }}"
+    password: "CDE65254CC57BC0C3D0A85509B5CEA654126BF567"
     host: localhost
     priv: "*.*:ALL,GRANT"
     check_implicit_admin: yes

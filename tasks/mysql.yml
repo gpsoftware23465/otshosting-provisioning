@@ -35,7 +35,8 @@
 - name: Set MySQL otsmanager password (localhost)
   mysql_user:
     name: otsmanager
-    password: "CDE65254CC57BC0C3D0A85509B5CEA654126BF567"
+    password: "{{ mysql_otsmanager_pass }}"
+    login_unix_socket: /var/run/mysqld/mysqld.sock
     host: localhost
     priv: "*.*:ALL,GRANT"
     check_implicit_admin: yes
